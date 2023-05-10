@@ -1,0 +1,178 @@
+body{
+    padding:0px;
+    margin:0px;
+    background:linear-gradient(rgb(184, 184, 217), rgb(81, 81, 248)
+     );
+     height:100vh;
+    background-color:aquamarine;
+    display:flex;
+    align-items: center;
+    
+}
+
+.container{
+    display:flex;
+ 
+    width:90%;
+    margin:auto;
+    height:auto;
+    position:relative;
+    justify-content: space-around;
+}
+.left h1{
+    color:white;
+}
+.left p{
+    color:white;
+}
+
+.right h1, p{
+color:black;
+}
+
+.left{
+    height:700px;
+    width:auto;
+   
+    text-align: center;
+    position: relative;
+}
+
+.right{
+    height:700px;
+    width:auto;
+   
+   
+  
+
+
+}
+
+.hexagon{
+  margin-top: 139px;
+    height: 464.00799560546875px;
+    width: 608.06103515625px;
+    /* left: 70px;
+    top: 387px; */
+    border-radius: 0px;
+    
+    clip-path:polygon(11% 0, 99% 9%, 100% 47%, 90% 100%, 11% 100%, 0 35%);
+    background-color: azure;
+}
+
+form{
+    height: 643px;
+width: 553px;
+/* left: 810px;
+top: 191px; */
+border-radius: 20px;
+background-color: rgb(252, 253, 252);
+margin-top: 55px;
+text-align: center;
+position:relative;
+
+
+}
+
+input{
+    height: 50px;
+    width: 446px;
+    /* left: 863px;
+    top: 423px; */
+    border-radius: 5px;
+    margin-top:20px;
+
+    
+
+}
+
+.sub-form{
+    position: absolute;
+    width:100%;
+    margin:auto;
+    top:50px;
+}
+
+
+
+.sub-form span{
+    position:absolute;
+    right:55px;
+}
+
+
+.sub-form .btn1{
+    margin-top: 50px;
+   
+}
+
+
+.sub-form button{
+    height: 45px;
+width: 150px;
+background: linear-gradient(136.93deg, #D100F3 9.08%, #002BC5 108.36%);
+border-radius: 5px;
+color:white;
+
+
+
+}
+.line{
+position: absolute;
+width: 445px;
+height: 0px;
+left: 64px;
+top: 380px;
+
+border: 1px solid #b76161;
+
+
+}
+
+.lower{
+    margin-top: 70px;
+}
+
+.star{
+    position: absolute;
+   color: #b76161;
+   top:240px;
+   left:240px;
+   
+   z-index: 1000;
+   
+   padding: 12px;
+   margin:12px;
+   font-size: 30px;
+}
+
+.hash{
+    color:grey;
+    position: absolute;
+    z-index: 1000;
+    top:290px;
+    left:310px;
+    font-size: 80px;
+
+
+}
+
+.bulb{
+     color:grey;
+    position: absolute;
+    z-index: 1000;
+    top:290px;
+    left:390px;
+    font-size: 80px;
+}
+
+.left img{
+    position: absolute;
+    z-index: 1000;
+    top:490px;
+    left:90px;
+   width:400PX;
+   height:200px;
+
+
+}
